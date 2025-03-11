@@ -1,0 +1,15 @@
+name: unav-coupon-recommendation-system
+channels:
+  - conda-forge
+dependencies:
+  - python=3.13.1
+  - black
+  - flake8
+  - isort
+  - pip
+  - typer
+  - loguru
+  - tqdm
+  - pip:
+    - python-dotenv
+    - -e .
